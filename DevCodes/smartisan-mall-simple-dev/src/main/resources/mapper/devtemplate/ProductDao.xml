@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.cyn.mall.devtemplate.dao.ProductDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.cyn.mall.devtemplate.entity.ProductEntity" id="productMap">
+        <result property="productId" column="product_id"/>
+        <result property="salePrice" column="sale_price"/>
+        <result property="productName" column="product_name"/>
+        <result property="productImageSmall" column="product_image_small"/>
+        <result property="productImageBig" column="product_image_big"/>
+        <result property="productMsg" column="product_msg"/>
+        <result property="stock" column="stock"/>
+        <result property="subTitle" column="sub_title"/>
+        <result property="limitNum" column="limit_num"/>
+    </resultMap>
+
+
+</mapper>

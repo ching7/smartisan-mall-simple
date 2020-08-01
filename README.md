@@ -1,37 +1,53 @@
 # smartisan-mall-simple
 
 #### 介绍
-锤子科技官网简单demo实现
+锤子科技官网简单demo实现。前台原模板来自 [[vue-mall](https://github.com/yucccc/vue-mall)] 原前台工程。
 
-#### 软件架构
-软件架构说明
+后台原模板使用的是mongdb实现。本项目使用springboot进行了重写，原有功能基本全部实现。
 
+#### 层级目录
 
-#### 安装教程
+~~~properties
+smartisan-mall-simple
+├── DevCodes		//springboot后台实现
+|  └── smartisan-mall-simple-dev
+├── Sql				//数据库sql文件
+|  └── mall_template.sql
+└── WebCodes         //vue前台
+   └── smartisan-mall-simple-web
+~~~
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+#### 技术架构
+
+* 前台
+
+  vue，详情见 [[vue-mall](https://github.com/yucccc/vue-mall)]。原前台工程
+
+* 后台
+
+  springboot、mybatis-plus、renren逆向
 
 #### 使用说明
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+**环境准备**
 
-#### 参与贡献
+1. node.js
+2. jdk8及以上
+3. mysql
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+**启动**
 
+1. clone或者download仓库到本地目录
 
-#### 码云特技
+2. 启动前台
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5.  码云官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+   准备node.js环境后台
+
+   默认前台端口为9999，后台代理端口为3333
+
+   * 进入WebCodes/smartisan-mall-simple-web
+   * npm install -U / npm run dev
+
+3. 启动后台
+
+   准备jdk环境，mysql环境。修改 application.yml 对应的数据库连接。
