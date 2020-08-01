@@ -51,3 +51,7 @@ smartisan-mall-simple
 3. 启动后台
 
    准备jdk环境，mysql环境。修改 application.yml 对应的数据库连接。
+
+#### 交流沟通
+
+有问题欢迎沟通交流，[issue](https://github.com/ching7/smartisan-mall-simple/issues)
