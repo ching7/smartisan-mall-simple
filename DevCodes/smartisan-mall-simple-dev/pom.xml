@@ -18,7 +18,7 @@
         <mybatis-plus-starter-version>3.2.0</mybatis-plus-starter-version>
         <mysql-connector-version>8.0.17</mysql-connector-version>
         <!--        <mysql-connector-version>5.7</mysql-connector-version>-->
-        <fastjson-verion>1.2.72</fastjson-verion>
+        <fastjson-verion>1.2.83</fastjson-verion>
     </properties>
     <dependencies>
         <!-- springBoot 的启动器 -->
