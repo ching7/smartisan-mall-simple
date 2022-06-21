@@ -16,7 +16,7 @@
         <swagger.version>2.7.0</swagger.version>
         <commons-lang-version>2.6</commons-lang-version>
         <mybatis-plus-starter-version>3.2.0</mybatis-plus-starter-version>
-        <mysql-connector-version>8.0.17</mysql-connector-version>
+        <mysql-connector-version>8.0.28</mysql-connector-version>
         <!--        <mysql-connector-version>5.7</mysql-connector-version>-->
         <fastjson-verion>1.2.72</fastjson-verion>
     </properties>
